@@ -6,7 +6,8 @@ import {
   Link,
   Switch
 } from 'react-router-dom';
-import store from './components/redux-101';
+// import store from './components/redux-101';
+import expensesStore from './components/redux-expensify.js';
 
 class App extends Component {
   state = { 
